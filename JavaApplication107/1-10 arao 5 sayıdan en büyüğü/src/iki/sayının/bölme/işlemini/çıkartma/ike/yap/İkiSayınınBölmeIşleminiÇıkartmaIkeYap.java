@@ -18,24 +18,20 @@ public class İkiSayınınBölmeIşleminiÇıkartmaIkeYap {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner kb=new Scanner(System.in);
-        Random r=new Random();
-        int a;//sayıyı belirle
-        int eb=0; //en küçük sayıyı atayacağın bir değişken belirle
-        for(int i =0;i<5;i++){ //kaç tane sayı oluşacağını belirle
-        a=r.nextInt(10)+1;// rastgele sayıları alan kod
-        if(a>=eb) eb=a;//koşul ve sonuç
-        
-        }
-              System.out.println("En büyük sayı "+eb);
-        
-        
-        
-        }
-
+    Scanner k=new Scanner(System.in);
+        System.out.println("Bir sayı giriniz");
+    int a=k.nextInt();
+    
+    int sayac=0;
     
     
-    
+    while(a>0){
+    a=a/2;
+    sayac++;
     
     
     }
+        System.out.println(sayac+" kadar bölünür ");
+    
+}
+}

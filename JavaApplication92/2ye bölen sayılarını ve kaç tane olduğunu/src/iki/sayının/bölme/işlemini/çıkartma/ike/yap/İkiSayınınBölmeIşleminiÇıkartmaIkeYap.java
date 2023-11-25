@@ -18,15 +18,20 @@ public class İkiSayınınBölmeIşleminiÇıkartmaIkeYap {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       int x= 0;
-int y= 0;
-for (int z = 0; z < 7; z++)
-{                            //  0     1     2   3    4      5    6    7       7nin işlemleri      
-if (( x++ > 2 ) && (y++ > 2))// 0 0  1 0   2 0  3 0   4 1   5 2  6 3  7 4      8  12   8 11
-{                            
-
-}
-System.out.println(x + " " + y);
+    Scanner k=new Scanner(System.in);
+        System.out.println("Bir sayı giriniz");
+    int a=k.nextInt();
+    
+    int sayac=0;
+    
+    
+    while(a>0){
+    a=a/2;
+    sayac++;
+    
+    
     }
+        System.out.println(sayac+" kadar bölünür ");
+    
 }
 }
